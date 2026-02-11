@@ -1,0 +1,99 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.navbar-nav .nav-item a{
+    color: #BB8F4D;
+    font-size: 20px;
+}
+.navbar-nav .nav-item a:hover{
+    color:#bc9d6f;
+}
+
+.container
+{
+    font-size: 60px;
+    word-spacing: 30px;
+}
+.container1 {
+    margin-top: 130px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container1 .row h1{
+     margin-top: 50px;
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+}.ibm-plex-serif-thin {
+  font-family: "IBM Plex Serif", serif;
+  font-weight: 50;
+  font-style: normal;
+
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease;
+  }
+
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 50px;
+}
+.service{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-in-out;
+}
+.service.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+.card{
+    width: 400px;
+    border-radius: 8px;
+    overflow:hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.card-content h3{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
